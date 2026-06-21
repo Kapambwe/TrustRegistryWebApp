@@ -1,0 +1,23 @@
+[
+  {
+    "EventType": "IssuerRegistered",
+    "ActorDid": "did:zm:gov:minedu",
+    "Action": "Registered Future Leaders Academy",
+    "OccurredAt": "2026-06-17T10:30:00Z",
+    "TraceId": "trace-mock-001"
+  },
+  {
+    "EventType": "CredentialRevoked",
+    "ActorDid": "did:zm:gov:minedu",
+    "Action": "Revoked a school accreditation credential",
+    "OccurredAt": "2026-06-18T15:45:00Z",
+    "TraceId": "trace-mock-002"
+  },
+  {
+    "EventType": "IssuerSuspended",
+    "ActorDid": "did:zm:gov:mof",
+    "Action": "Suspended did:zm:legal:example-audit-firm due to pending review",
+    "OccurredAt": "2026-06-19T09:00:00Z",
+    "TraceId": "trace-mock-003"
+  }
+]

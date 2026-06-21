@@ -1,0 +1,19 @@
+[
+  {
+    "LegalName": "Zambia National Trust Authority",
+    "TradingName": "ZANTA",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:root",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:root",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "sovereign-root",
+    "AuthorizedCredentialTypes": ["TrustAnchorCredential","AccreditationCredential","RootEndorsementCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [{"Id": "did:zm:gov:root#signing-key-1","Type": "JsonWebKey2020","Controller": "did:zm:gov:root","PublicKeyJwk": {"kty": "OKP","crv": "Ed25519","x": "A1bC2dE3fG4hI5jK6lM7nO8pQ9rS0tU1vW2xY3zA4Bc"},"Purpose": ["assertionMethod"],"Status": "Active","ValidFrom": "2026-01-01T00:00:00Z","ValidUntil": null,"PublicKeyFingerprint": "z6MkZantaRootKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ"}],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  }
+]

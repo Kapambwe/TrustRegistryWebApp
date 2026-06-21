@@ -1,0 +1,45 @@
+[
+  {
+    "IssuerDid": "did:zm:edu:future-leaders-academy",
+    "LegalName": "Future Leaders Academy",
+    "Sector": "education",
+    "Jurisdiction": "ZM",
+    "AccreditedBy": "did:zm:gov:minedu",
+    "AuthorizedCredentialTypes": [
+      "Grade12CertificateCredential",
+      "TranscriptCredential"
+    ],
+    "ValidFrom": "2026-01-01T00:00:00Z",
+    "ValidUntil": "2029-12-31T23:59:59Z",
+    "Status": "active"
+  },
+  {
+    "IssuerDid": "did:zm:university:unza",
+    "LegalName": "University of Zambia",
+    "Sector": "higher-education",
+    "Jurisdiction": "ZM",
+    "AccreditedBy": "did:zm:gov:minedu",
+    "AuthorizedCredentialTypes": [
+      "UniversityDegreeCredential",
+      "TranscriptCredential"
+    ],
+    "ValidFrom": "2026-01-01T00:00:00Z",
+    "ValidUntil": "2031-12-31T23:59:59Z",
+    "Status": "active"
+  },
+  {
+    "IssuerDid": "did:zm:gov:mof",
+    "LegalName": "Ministry of Finance",
+    "Sector": "finance",
+    "Jurisdiction": "ZM",
+    "AccreditedBy": "did:zm:gov:root",
+    "AuthorizedCredentialTypes": [
+      "TaxComplianceCredential",
+      "TSAAccountCredential",
+      "BudgetApprovalCredential"
+    ],
+    "ValidFrom": "2026-01-01T00:00:00Z",
+    "ValidUntil": null,
+    "Status": "active"
+  }
+]
