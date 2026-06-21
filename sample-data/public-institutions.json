@@ -1,19 +1,1133 @@
 [
   {
-    "LegalName": "Zambia National Trust Authority",
-    "TradingName": "ZANTA",
+    "LegalName": "Patents and Companies Registration Agency",
+    "TradingName": "PACRA",
     "InstitutionGroup": "GovernmentAgency",
     "Sector": "government",
     "Jurisdiction": "ZM",
     "RegistrationNumber": null,
-    "Did": "did:zm:gov:root",
+    "Did": "did:zm:gov:pacra",
     "DidMethod": "did:zm",
-    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:root",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:pacra",
     "TrustStatus": "Active",
-    "InstitutionAuthorityLevel": "sovereign-root",
-    "AuthorizedCredentialTypes": ["TrustAnchorCredential","AccreditationCredential","RootEndorsementCredential"],
+    "InstitutionAuthorityLevel": "legal-existence-and-registration",
+    "AuthorizedCredentialTypes": ["InstitutionRegistrationCredential", "BusinessRegistrationCredential"],
     "AccreditationAuthority": null,
-    "VerificationMethods": [{"Id": "did:zm:gov:root#signing-key-1","Type": "JsonWebKey2020","Controller": "did:zm:gov:root","PublicKeyJwk": {"kty": "OKP","crv": "Ed25519","x": "A1bC2dE3fG4hI5jK6lM7nO8pQ9rS0tU1vW2xY3zA4Bc"},"Purpose": ["assertionMethod"],"Status": "Active","ValidFrom": "2026-01-01T00:00:00Z","ValidUntil": null,"PublicKeyFingerprint": "z6MkZantaRootKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ"}],
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:pacra#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:pacra",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "A1bC2dE3fG4hI5jK6lM7nO8pQ9rS0tU1vW2xY3zA4Pc" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkPacraKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ01"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Road Development Agency",
+    "TradingName": "RDA",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:rda",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:rda",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-infrastructure-authority",
+    "AuthorizedCredentialTypes": ["InfrastructureProjectCredential", "InstitutionRegistrationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:rda#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:rda",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "B1cD2eF3gH4iJ5kL6mN7oP8qR9sT0uV1wX2yZ3aB4Rd" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkRdaKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ0202"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Road Transport and Safety Agency",
+    "TradingName": "RTSA",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:rtsa",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:rtsa",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-transport-authority",
+    "AuthorizedCredentialTypes": ["DriverLicenseCredential", "VehicleRegistrationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:rtsa#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:rtsa",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "C1dE2fG3hI4jK5lM6nO7pQ8rS9tU0vW1xY2zA3bC4Se" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkRtsaKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ0303"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Rural Electrification Authority",
+    "TradingName": "REA",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:rea",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:rea",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-infrastructure-authority",
+    "AuthorizedCredentialTypes": ["InfrastructureProjectCredential", "EnergyAccessCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:rea#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:rea",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "D1eF2gH3iJ4kL5mN6oP7qR8sT9uV0wX1yZ2aB3cD4Tf" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkReaKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ0404"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Zambia Development Agency",
+    "TradingName": "ZDA",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:zda",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:zda",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-investment-promotion",
+    "AuthorizedCredentialTypes": ["InvestmentPromotionCredential", "InstitutionRegistrationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:zda#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:zda",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "E1fG2hI3jK4lM5nO6pQ7rS8tU9vW0xY1zA2bC3dE4Ug" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkZdaKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ0505"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Zambia Environmental Management Agency",
+    "TradingName": "ZEMA",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:zema",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:zema",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-environmental-regulation",
+    "AuthorizedCredentialTypes": ["EnvironmentalPermitCredential", "ComplianceInspectionCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:zema#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:zema",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "F1gH2iJ3kL4mN5oP6qR7sT8uV9wX0yZ1aB2cD3eF4Vh" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkZemaKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ0606"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Zambia Information and Communications Technology Authority",
+    "TradingName": "ZICTA",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:zicta",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:zicta",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-digital-regulation",
+    "AuthorizedCredentialTypes": ["TelecomLicenseCredential", "DigitalServiceAuthorizationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:zicta#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:zicta",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "G1hI2jK3lM4nO5pQ6rS7tU8vW9xY0zA1bC2dE3fG4Wi" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkZictaKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ0707"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Zambia Medicines and Medical Supplies Agency",
+    "TradingName": "ZAMMSA",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:zammsa",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:zammsa",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-medical-supplies-authority",
+    "AuthorizedCredentialTypes": ["MedicalSupplyCredential", "ProcurementAuthorizationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:zammsa#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:zammsa",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "H1iJ2kL3mN4oP5qR6sT7uV8wX9yZ0aB1cD2eF3gH4Xj" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkZammsaKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ0808"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Zambia Medicines Regulatory Authority",
+    "TradingName": "ZAMRA",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:zamra",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:zamra",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-medical-regulation",
+    "AuthorizedCredentialTypes": ["MedicinesLicenseCredential", "ComplianceInspectionCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:zamra#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:zamra",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "I1jK2lM3nO4pQ5rS6tU7vW8xY9zA0bC1dE2fG3hI4Yk" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkZamraKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ0909"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Zambia National Broadcasting Corporation",
+    "TradingName": "ZNBC",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:znbc",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:znbc",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "state-media-authority",
+    "AuthorizedCredentialTypes": ["BroadcastLicenseCredential", "InstitutionRegistrationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:znbc#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:znbc",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "J1kL2mN3oP4qR5sT6uV7wX8yZ9aB0cD1eF2gH3iJ4Zl" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkZnbcKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ1010"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Zambia News and Information Services",
+    "TradingName": "ZANIS",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:zanis",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:zanis",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-information-services",
+    "AuthorizedCredentialTypes": ["GovernmentCorrespondenceCredential", "InstitutionRegistrationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:zanis#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:zanis",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "K1lM2nO3pQ4rS5tU6vW7xY8zA9bC0dE1fG2hI3jK4Am" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkZnisKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ1111"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Zambia Public Procurement Authority",
+    "TradingName": "ZPPA",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:zppa",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:zppa",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-procurement-authority",
+    "AuthorizedCredentialTypes": ["ProcurementLicenseCredential", "InstitutionRegistrationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:zppa#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:zppa",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "L1mN2oP3qR4sT5uV6wX7yZ8aB9cD0eF1gH2iJ3kL4Bn" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkZppaKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ1212"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Zambia Revenue Authority",
+    "TradingName": "ZRA",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:zra",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:zra",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-tax-authority",
+    "AuthorizedCredentialTypes": ["TaxComplianceCredential", "TaxClearanceCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:zra#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:zra",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "M1nO2pQ3rS4tU5vW6xY7zA8bC9dE0fG1hI2jK3lM4Co" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkZraKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ1313"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Zambia Statistics Agency",
+    "TradingName": "ZamStats",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:zamstats",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:zamstats",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-statistics-authority",
+    "AuthorizedCredentialTypes": ["StatisticsPublicationCredential", "InstitutionRegistrationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:zamstats#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:zamstats",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "N1oP2qR3sT4uV5wX6yZ7aB8cD9eF0gH1iJ2kL3mN4Dp" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkZstatsKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ1414"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Bank of Zambia",
+    "TradingName": "BoZ",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:boz",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:boz",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-monetary-authority",
+    "AuthorizedCredentialTypes": ["BankLicenseCredential", "MonetaryAuthorityCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:boz#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:boz",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "O1pQ2rS3tU4vW5xY6zA7bC8dE9fG0hI1jK2lM3nO4Eq" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkBozKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ1515"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Citizens Economic Empowerment Commission",
+    "TradingName": "CEEC",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:ceec",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:ceec",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-economic-empowerment-authority",
+    "AuthorizedCredentialTypes": ["EnterpriseSupportCredential", "InstitutionRegistrationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:ceec#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:ceec",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "P1qR2sT3uV4wX5yZ6aB7cD8eF9gH0iJ1kL2mN3oP4Fr" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkCeecKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ1616"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Energy Regulation Board",
+    "TradingName": "ERB",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:erb",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:erb",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-energy-regulation",
+    "AuthorizedCredentialTypes": ["EnergyLicenseCredential", "ComplianceInspectionCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:erb#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:erb",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "Q1rS2tU3vW4xY5zA6bC7dE8fG9hI0jK1lM2nO3pQ4Gs" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkErbKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ1717"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Engineering Institution of Zambia",
+    "TradingName": "EIZ",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:eiz",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:eiz",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-professional-standards",
+    "AuthorizedCredentialTypes": ["ProfessionalMembershipCredential", "InstitutionRegistrationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:eiz#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:eiz",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "R1sT2uV3wX4yZ5aB6cD7eF8gH9iJ0kL1mN2oP3qR4Ht" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkEizKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ1818"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Examination Council of Zambia",
+    "TradingName": "ECZ",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:ecz",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:ecz",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-assessment-authority",
+    "AuthorizedCredentialTypes": ["ExaminationResultsCredential", "InstitutionRegistrationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:ecz#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:ecz",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "S1tU2vW3xY4zA5bC6dE7fG8hI9jK0lM1nO2pQ3rS4Iu" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkEczKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ1919"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Financial Intelligence Centre",
+    "TradingName": "FIC",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:fic",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:fic",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-financial-intelligence-authority",
+    "AuthorizedCredentialTypes": ["ComplianceMonitoringCredential", "InstitutionRegistrationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:fic#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:fic",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "T1uV2wX3yZ4aB5cD6eF7gH8iJ9kL0mN1oP2qR3sT4Jv" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkFicKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ2020"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Food Reserve Agency",
+    "TradingName": "FRA",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:fra",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:fra",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-food-security-authority",
+    "AuthorizedCredentialTypes": ["FoodSecurityCredential", "InstitutionRegistrationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:fra#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:fra",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "U1vW2xY3zA4bB5cD6eF7gH8iJ9kL0mN1oP2qR3sT4Kw" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkFraKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ2121"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "National Council for Construction",
+    "TradingName": "NCC",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:ncc",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:ncc",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-construction-authority",
+    "AuthorizedCredentialTypes": ["ConstructionLicenseCredential", "InstitutionRegistrationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:ncc#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:ncc",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "V1wX2yZ3aB4cD5eF6gH7iJ8kL9mN0oP1qR2sT3uV4Lx" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkNccKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ2222"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "National Health Insurance Management Authority",
+    "TradingName": "NHIMA",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:nhima",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:nhima",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-health-financing-authority",
+    "AuthorizedCredentialTypes": ["HealthInsuranceCredential", "InstitutionRegistrationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:nhima#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:nhima",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "W1xY2zA3bC4dE5fG6hI7jK8lM9nO0pQ1rS2tU3vW4My" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkNhimaKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ2323"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "National Road Fund Agency",
+    "TradingName": "NRFA",
+    "InstitutionGroup": "GovernmentAgency",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:nrfa",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:nrfa",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "legal-existence-and-road-funding-authority",
+    "AuthorizedCredentialTypes": ["RoadFundCredential", "InstitutionRegistrationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:nrfa#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:nrfa",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "X1yZ2aB3cD4eF5gH6iJ7kL8mN9oP0qR1sT2uV3wX4Nz" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkNrfaKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ2424"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Ministry of Home Affairs and Internal Security",
+    "TradingName": "Ministry of Home Affairs",
+    "InstitutionGroup": "GovernmentMinistry",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:moha",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:moha",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "ministerial-authority",
+    "AuthorizedCredentialTypes": ["IdentityCredential", "SecurityClearanceCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:moha#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:moha",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "Y1zA2bC3dE4fG5hI6jK7lM8nO9pQ0rS1tU2vW3xY4Az" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkMohaKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ2525"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Ministry of Justice",
+    "TradingName": "MoJ",
+    "InstitutionGroup": "GovernmentMinistry",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:moj",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:moj",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "ministerial-authority",
+    "AuthorizedCredentialTypes": ["LegalDocumentCredential", "CourtOrderCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:moj#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:moj",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "Z1aB2cD3eF4gH5iJ6kL7mN8oP9qR0sT1uV2wX3yZ4Ba" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkMojKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ2626"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Ministry of Labour and Social Security",
+    "TradingName": "Ministry of Labour",
+    "InstitutionGroup": "GovernmentMinistry",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:mols",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:mols",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "ministerial-authority",
+    "AuthorizedCredentialTypes": ["EmploymentCredential", "WorkPermitCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:mols#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:mols",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "A2bC3dE4fG5hI6jK7lM8nO9pQ0rS1tU2vW3xY4zA5Cb" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkMolsKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ2727"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Ministry of Youth, Sport and Arts",
+    "TradingName": "Ministry of Sports",
+    "InstitutionGroup": "GovernmentMinistry",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:mosa",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:mosa",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "ministerial-authority",
+    "AuthorizedCredentialTypes": ["SportsAssociationCredential", "YouthProgramCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:mosa#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:mosa",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "B2cD3eF4gH5iJ6kL7mN8oP9qR0sT1uV2wX3yZ4aB5Cc" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkMosaKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ2828"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Ministry of Tourism",
+    "TradingName": "Ministry of Tourism",
+    "InstitutionGroup": "GovernmentMinistry",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:mot",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:mot",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "ministerial-authority",
+    "AuthorizedCredentialTypes": ["TourismLicenseCredential", "HeritagePermitCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:mot#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:mot",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "C3dE4fG5hI6jK7lM8nO9pQ0rS1tU2vW3xY4zA5bC6Dd" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkMotKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ2929"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Ministry of Transport and Logistics",
+    "TradingName": "Ministry of Transport",
+    "InstitutionGroup": "GovernmentMinistry",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:motl",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:motl",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "ministerial-authority",
+    "AuthorizedCredentialTypes": ["TransportPermitCredential", "LogisticsAuthorizationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:motl#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:motl",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "D4eF5gH6iJ7kL8mN9oP0qR1sT2uV3wX4yZ5aB6cD7Ee" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkMotlKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ3030"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Ministry of Water Development and Sanitation",
+    "TradingName": "Ministry of Water",
+    "InstitutionGroup": "GovernmentMinistry",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:mow",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:mow",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "ministerial-authority",
+    "AuthorizedCredentialTypes": ["WaterProjectCredential", "SanitationPermitCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:mow#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:mow",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "E5fG6hI7jK8lM9nO0pQ1rS2tU3vW4xY5zA6bC7dE8Ff" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkMowKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ3131"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Ministry of Youth, Sport and Arts",
+    "TradingName": "Ministry of Youth",
+    "InstitutionGroup": "GovernmentMinistry",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:mysa",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:mysa",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "ministerial-authority",
+    "AuthorizedCredentialTypes": ["YouthProgramCredential", "ArtsProgramCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:mysa#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:mysa",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "F6gH7iJ8kL9mN0oP1qR2sT3uV4wX5yZ6aB7cD8eF9Gg" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkMysaKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ3232"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Ministry of Agriculture",
+    "TradingName": "Ministry of Agriculture",
+    "InstitutionGroup": "GovernmentMinistry",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:moa",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:moa",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "ministerial-authority",
+    "AuthorizedCredentialTypes": ["AgriculturePermitCredential", "FarmSupportCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:moa#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:moa",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "G7hI8jK9lM0nO1pQ2rS3tU4vW5xY6zA7bC8dE9fG0Hh" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkMoaKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ3333"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Ministry of Defence",
+    "TradingName": "Ministry of Defence",
+    "InstitutionGroup": "GovernmentMinistry",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:mod",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:mod",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "ministerial-authority",
+    "AuthorizedCredentialTypes": ["DefenceClearanceCredential", "SecurityClearanceCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:mod#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:mod",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "H8iJ9kL0mN1oP2qR3sT4uV5wX6yZ7aB8cD9eF0gH1Ii" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkModKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ3434"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Ministry of Education",
+    "TradingName": "Ministry of Education",
+    "InstitutionGroup": "GovernmentMinistry",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:moe",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:moe",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "ministerial-authority",
+    "AuthorizedCredentialTypes": ["EducationPolicyCredential", "InstitutionRegistrationCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:moe#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:moe",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "I9jK0lM1nO2pQ3rS4tU5vW6xY7zA8bC9dE0fG1hI2Jj" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkMoeKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ3535"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Ministry of Energy",
+    "TradingName": "Ministry of Energy",
+    "InstitutionGroup": "GovernmentMinistry",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:moe2",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:moe2",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "ministerial-authority",
+    "AuthorizedCredentialTypes": ["EnergyPolicyCredential", "UtilityProjectCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:moe2#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:moe2",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "J0kL1mN2oP3qR4sT5uV6wX7yZ8aB9cD0eF1gH2iJ3Kk" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkMoE2Key1aBcDeFgHiJkLmNoPqRsTuVwXyZ3636"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Ministry of Finance and National Planning",
+    "TradingName": "Ministry of Finance",
+    "InstitutionGroup": "GovernmentMinistry",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:mof",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:mof",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "ministerial-authority",
+    "AuthorizedCredentialTypes": ["BudgetAuthorizationCredential", "FinancialPolicyCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:mof#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:mof",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "K1lM2nO3pQ4rS5tU6vW7xY8zA9bC0dE1fG2hI3jK4Ll" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkMofKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ3737"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Ministry of Foreign Affairs and International Cooperation",
+    "TradingName": "Ministry of Foreign Affairs",
+    "InstitutionGroup": "GovernmentMinistry",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:mofa",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:mofa",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "ministerial-authority",
+    "AuthorizedCredentialTypes": ["DiplomaticCredential", "ConsularCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:mofa#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:mofa",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "L2mN3oP4qR5sT6uV7wX8yZ9aB0cD1eF2gH3iJ4kL5Mm" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkMofaKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ3838"
+      }
+    ],
+    "LastUpdated": "2026-06-19T22:00:00Z"
+  },
+  {
+    "LegalName": "Ministry of Health",
+    "TradingName": "Ministry of Health",
+    "InstitutionGroup": "GovernmentMinistry",
+    "Sector": "government",
+    "Jurisdiction": "ZM",
+    "RegistrationNumber": null,
+    "Did": "did:zm:gov:moh",
+    "DidMethod": "did:zm",
+    "DidDocumentUrl": "https://trust.gov.zm/dids/did:zm:gov:moh",
+    "TrustStatus": "Active",
+    "InstitutionAuthorityLevel": "ministerial-authority",
+    "AuthorizedCredentialTypes": ["HealthPolicyCredential", "PublicHealthDirectiveCredential"],
+    "AccreditationAuthority": null,
+    "VerificationMethods": [
+      {
+        "Id": "did:zm:gov:moh#signing-key-1",
+        "Type": "JsonWebKey2020",
+        "Controller": "did:zm:gov:moh",
+        "PublicKeyJwk": { "kty": "OKP", "crv": "Ed25519", "x": "M3nO4pQ5rS6tU7vW8xY9zA0bC1dE2fG3hI4jK5lM6Nn" },
+        "Purpose": ["assertionMethod"],
+        "Status": "Active",
+        "ValidFrom": "2026-01-01T00:00:00Z",
+        "ValidUntil": null,
+        "PublicKeyFingerprint": "z6MkMohKey1aBcDeFgHiJkLmNoPqRsTuVwXyZ3939"
+      }
+    ],
     "LastUpdated": "2026-06-19T22:00:00Z"
   }
 ]
