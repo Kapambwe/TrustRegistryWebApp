@@ -5,7 +5,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trust Registry</title>
-    <base href="/TrustRegistryWebApp/" />
+    <base href="/TrustRegistryWebApp/" id="dynamic-base" />
+    <script>
+        // Dynamically set the base path for GitHub Pages and local hosting.
+        (function () {
+            var base = document.getElementById('dynamic-base');
+            var path = window.location.pathname.includes('/TrustRegistryWebApp')
+                ? '/TrustRegistryWebApp/'
+                : '/';
+            base.setAttribute('href', path);
+        })();
+    </script>
     <link href="_framework/dotnet.42b9kgsi5y.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-PLREFwboNK4opClJN9M7pUhVwjbP01MWZUuisRPktAI=" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -50,6 +60,16 @@
         <span class="dismiss">🗙</span>
     </div>
     <script src="_framework/blazor.webassembly.w3qd1tpl0e.js"></script>
+    <script>
+        // Restore the client-side route after GitHub Pages redirects through 404.html.
+        (function () {
+            const params = new URLSearchParams(window.location.search);
+            const path = params.get('path');
+            if (path) {
+                window.history.replaceState(null, '', '/TrustRegistryWebApp' + decodeURIComponent(path));
+            }
+        })();
+    </script>
 </body>
 
 </html>
